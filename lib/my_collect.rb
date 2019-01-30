@@ -3,9 +3,9 @@ def my_collect(array)
   newarr = []
   while i < array.length
   yield array[i]
-  
+  newarr << array[i]
     i = i + 1
   end
-  new_arr
+  newarr
 end
 
